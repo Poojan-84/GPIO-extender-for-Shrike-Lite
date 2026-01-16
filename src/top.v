@@ -16,7 +16,7 @@
     (* iopad_external_pin *) output [7:0] o_gpio_en
 );
 
-    // Shrike specific clock enable
+    
     assign clk_en = 1'b1;
 
     // Wires for SPI Module
