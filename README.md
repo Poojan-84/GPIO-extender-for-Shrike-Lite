@@ -10,15 +10,15 @@ By leveraging the FPGA's logic fabric, this design allows the RP2040 to control 
 
 The system functions as a soft-command bridge between the microcontroller and the FPGA:
 * **RP2040 (Master):** Executes MicroPython/C++ firmware to send commands and read pin states.
-* [cite_start]**FPGA (Slave):** Contains a **GPIO v1.0 Soft-IP Core** architecture that manages internal registers and physical tristate buffers[cite: 35, 118].
+* **FPGA (Slave):** Contains a **GPIO v1.0 Soft-IP Core** architecture that manages internal registers and physical tristate buffers.
 
 ### Specifications
 | Feature | Detail |
 | :--- | :--- |
-| **I/O Width** | [cite_start]8 Independent Bi-directional Pins [cite: 39] |
+| **I/O Width** | 8 Independent Bi-directional Pins |
 | **Interface** | 8-bit SPI (Address Nibble + Data Nibble) |
 | **Clocking** | Internal 50MHz Oscillator |
-| **Logic Type** | [cite_start]Memory-mapped Register Control [cite: 35, 101] |
+| **Logic Type** | Memory-mapped Register Control |
 
 ---
 
