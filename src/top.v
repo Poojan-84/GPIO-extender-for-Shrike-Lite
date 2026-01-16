@@ -3,11 +3,11 @@
     (* iopad_external_pin *) output clk_en,
     (* iopad_external_pin *) input rst_n,
 
-    // SPI Interface (Mapped per your pinout)
-    (* iopad_external_pin *) input spi_ss_n,   // FPGA Pin 4
-    (* iopad_external_pin *) input spi_sck,    // FPGA Pin 3
-    (* iopad_external_pin *) input spi_mosi,   // FPGA Pin 5
-    (* iopad_external_pin *) output spi_miso,  // FPGA Pin 6
+    
+    (* iopad_external_pin *) input spi_ss_n,   
+    (* iopad_external_pin *) input spi_sck,    
+    (* iopad_external_pin *) input spi_mosi,   
+    (* iopad_external_pin *) output spi_miso,  
     (* iopad_external_pin *) output spi_miso_en,
 
     // 8-bit GPIO Interface
